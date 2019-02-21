@@ -1,0 +1,28 @@
+.head-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/img/hero.jpeg');
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+  background-size: cover;
+}
+
+.hero-title {
+  font-size: 70px;
+  margin-top: 0;
+  color: rgba(228, 255, 47, 1);
+}
+
+.hero-content {
+  margin: 0 auto;
+  width: 50%;
+  height: 20%;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 40px;
+  margin-top: 0;
+  color: rgba(255, 158, 194, 1);
+}
