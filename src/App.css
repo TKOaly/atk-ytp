@@ -1,3 +1,16 @@
 body {
+  background-color: #FF9EC2;
+}
+
+.lines {
+  position: absolute;
+  bottom: 0;
+}
+
+.shitstorm {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin: 0;
+  padding: 0;
 }
