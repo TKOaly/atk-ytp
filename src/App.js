@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <Head />
         <div className="shitstorm">
-          <img src="/img/shitstorm.svg" width="200 200"/>
+          <img src="/img/shitstorm.svg" width="200 200" alt=""/>
         </div>
         <div className="lines">
-          <img src="/img/lines.svg" width="400 400" />
+          <img src="/img/lines.svg" width="400 400" alt="" />
         </div>
       </div>
     );
