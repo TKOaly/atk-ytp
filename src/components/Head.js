@@ -8,9 +8,11 @@ export default function Head(props) {
 
   return (
     <div className="hero-content">
-      <h1 className="hero-title">{title}</h1>
-      <h2 className="hero-subtitle">{subtitle}</h2>
-      <h3 className="hero-subtitle">{date}</h3>
+      <div className="hero-content-wrapper">
+        <h1 className="hero-title">{title}</h1>
+        <h2 className="hero-subtitle">{subtitle}</h2>
+        <h3 className="hero-subtitle">{date}</h3>
+      </div>
     </div>
   )
 }
