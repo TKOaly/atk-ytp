@@ -5,27 +5,38 @@
 }
 
 .content-title-box {
+  background-color: rgba(228, 255, 47, 1);
+  clip-path: polygon(50% 10%, 90% 10%, 90% 19%, 80% 64%, 38% 90%, 10% 90%, 15% 44%, 33% 15%);
   width: 33vw;
   height: 100vh;
   align-self: row;
   order: 0;
   text-align: center;
   display:table;
+
+}
+
+.content-title-box.inverted {
+  order: 1;
 }
 
 .content-content-box {
-  background-color: white;
+  background-color: #ffdad9;
   width: 67vw;
   height: 100vh;
   order: 1;
   overflow: auto;
 }
 
+.content-content-box.inverted {
+  order: 0;
+}
+
 .title-text {
   font-size: 55px;
   display:table-cell; /*acts like a table cell*/
   vertical-align: middle;
-  color: rgba(228, 255, 47, 1);
+  color: #FF9EC2;
 }
 
 .content-text {
