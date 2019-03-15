@@ -13,7 +13,7 @@ export default function Schedule() {
       </div>
 
       <div className="content-title-box inverted">
-        <h1 className="title-text">{title}</h1>
+        <h1 className="title-text">aikataulu</h1>
       </div>
     </div>
   )

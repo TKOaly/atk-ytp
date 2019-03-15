@@ -4,7 +4,7 @@ import './styles/spacer.css'
 
 export default function Spacer() {
   return (
-    <div>
+    <div className="spanner-container">
       <p className="marquee">
         <span>TKO-äly Linkki Skripti TiTol Asteriski Serveri Luuppi</span>
       </p>
