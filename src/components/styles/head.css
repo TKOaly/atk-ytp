@@ -46,3 +46,8 @@
   font-family: 'Roboto-thin';
   color: rgba(228, 255, 47, 1);
 }
+
+.head-image {
+  width: 300px;
+  height: 300px;
+}
