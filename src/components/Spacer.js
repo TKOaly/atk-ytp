@@ -4,14 +4,13 @@ import './styles/spacer.css'
 
 export default function Spacer() {
   return (
-    <p className="marquee">
-    <span>TKO-äly</span>
-    <span>Linkki</span>
-    <span>Skripti</span>
-    <span>TiTol</span>
-    <span>Asteriski</span>
-    <span>Serveri</span>
-    <span>Luuppi</span>
-  </p>
+    <div>
+      <p className="marquee">
+        <span>TKO-äly Linkki Skripti TiTol Asteriski Serveri Luuppi</span>
+      </p>
+      <p className="marquee marquee2">
+        <span>TKO-äly Linkki Skripti TiTol Asteriski Serveri Luuppi</span>
+      </p>
+    </div>
   )
 }
