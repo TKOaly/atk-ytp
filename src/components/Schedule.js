@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/content.css'
+import './styles/content.scss'
 
-export default function Schedule() {
+export default function Schedule () {
   return (
     <div className="content">
       <div className="content-content-box inverted">
