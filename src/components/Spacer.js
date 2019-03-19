@@ -1,5 +1,4 @@
 import React from 'react'
-import infoContent from '../content/info.json'
 import './styles/spacer.css'
 
 export default function Spacer() {
