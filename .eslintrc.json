@@ -1,7 +1,20 @@
 {
   "extends": ["standard", "plugin:react/recommended"],
+  "plugins": ["react"],
   "env": {
     "browser": true,
     "mocha": true
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "detect",
+      "flowVersion": "0.53"
+    },
+    "propWrapperFunctions": [
+      "forbidExtraProps",
+      { "property": "freeze", "object": "Object" }
+    ]
   }
 }
