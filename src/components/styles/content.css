@@ -1,0 +1,84 @@
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-title-box {
+  background: linear-gradient(103deg, #fffa00, #02ff00, #00f2ff, #e3ff00);  background-size: 800% 800%;
+  animation: TitileBoxGradientAnim 32s ease infinite;
+  clip-path: polygon(50% 10%, 90% 10%, 90% 19%, 80% 64%, 38% 90%, 10% 90%, 15% 44%, 33% 15%);
+  width: 33vw;
+  height: 100vh;
+  align-self: row;
+  order: 0;
+  text-align: center;
+  display:table;
+
+}
+
+.content-title-box.inverted {
+  order: 1;
+}
+
+.content-content-box {
+  background-color: #ffdad9;
+  width: 67vw;
+  height: 100vh;
+  order: 1;
+  overflow: auto;
+}
+
+.content-content-box.inverted {
+  order: 0;
+}
+
+
+
+.title-text {
+  font-size: 55px;
+  display:table-cell; /*acts like a table cell*/
+  vertical-align: middle;
+  color: #FF9EC2;
+  letter-spacing: 10px;
+}
+
+.content-text {
+  font-family: 'Roboto-medium';
+  font-size: 30px;
+}
+
+.content-text-wrapper {
+  padding: 30px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+  
+  .content-title-box {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .content-content-box {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .content-title-box.inverted {
+    order: 0;
+  }
+
+  .content-content-box.inverted {
+    order: 1;
+  }
+
+}
+
+@keyframes TitileBoxGradientAnim { 
+  0%{background-position:0% 19%}
+  50%{background-position:100% 82%}
+  100%{background-position:0% 19%}
+}

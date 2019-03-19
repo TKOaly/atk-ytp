@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Head from './components/Head'
+import Navbar from './components/Navbar'
 import './App.css'
+import Info from './components/Info'
+import Schedule from './components/Schedule'
+import Spacer from './components/Spacer'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <Head />
-        <div className="shitstorm">
-          <img src="/img/shitstorm.svg" width="200 200" alt=""/>
-        </div>
-        <div className="lines">
-          <img src="/img/lines.svg" width="400 400" alt="" />
-        </div>
+        <Info />
+        <Spacer />
+        <Schedule />
       </div>
     );
   }
