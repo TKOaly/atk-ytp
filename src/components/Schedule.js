@@ -1,5 +1,4 @@
 import React from 'react'
-import infoContent from '../content/info.json'
 import './styles/content.css'
 
 export default function Schedule() {
