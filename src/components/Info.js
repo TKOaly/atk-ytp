@@ -1,6 +1,6 @@
 import React from 'react'
 import infoContent from '../content/info.json'
-import './styles/content.css'
+import './styles/content.scss'
 
 export default function Info() {
   const {title, content} = infoContent

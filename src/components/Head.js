@@ -1,6 +1,6 @@
 import React from 'react'
 import headContent from '../content/hero.json'
-import './styles/head.css'
+import './styles/head.scss'
 
 
 export default function Head(props) {
