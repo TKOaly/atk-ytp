@@ -1,13 +1,12 @@
 .navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 60px;
+  line-height: 60px;
   padding-left: 25px;
   position: sticky; // Sticky nav
   top: 0; // Top of the page
   width: 100%;
-  background-color: #FF9EC2;
+  height: 50px;
+  background-color: #ff9ec2;
   z-index: 999; // Make sure the navbar stays on top of every element on the page
 }
 
@@ -17,7 +16,7 @@
 
 .navbar__item {
   color: rgba(228, 255, 47, 1);
-  font-family: 'Roboto-medium';
+  font-family: "Roboto-medium";
   display: inline;
   cursor: pointer;
   margin-right: 44px;
@@ -26,4 +25,43 @@
 
 .navbar__item:hover {
   color: rgba(227, 255, 47, 0.7);
+}
+
+@media (max-width: 1000px) {
+  .burger {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 10px;
+    background-image: url("/img/burger.svg");
+  }
+
+  .navbar__items {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 50px;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background-color: hsl(68, 100%, 59%);
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .navbar__item {
+    color: #ff9ec2;
+    font-family: "Roboto-medium";
+    font-size: 50px;
+    margin: 30px;
+    display: block;
+    cursor: pointer;
+    margin-right: 44px;
+    transition: color 0.5s;
+  }
+
+  .navbar__item:hover {
+    color: rgba(252, 131, 175, 0.7);
+  }
 }
