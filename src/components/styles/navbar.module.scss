@@ -1,6 +1,7 @@
 .navbar {
   height: 60px;
   line-height: 60px;
+  padding-left: 25px;
   position: sticky; // Sticky nav
   top: 0; // Top of the page
   width: 100%;
@@ -32,6 +33,10 @@
 
 
 @media (max-width: 1000px) {
+  .navbar {
+    padding-left: 0;
+  }
+
   .burger {
     width: 30px;
     height: 30px;
