@@ -9,7 +9,7 @@ import Spacer from './components/Spacer'
 class App extends Component {
   render () {
     return (
-      <div className="App">
+      <div id="home" className="App">
         <Navbar />
         <Head />
         <Info />
