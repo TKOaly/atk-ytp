@@ -43,6 +43,9 @@
   font-family: 'Roboto-thin';
   color: rgba(228, 255, 47, 1);
 
+  &.countdown {
+    font-size: 25px;
+  }
 }
 
 .head-image {
