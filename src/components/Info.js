@@ -5,7 +5,7 @@ import './styles/content.scss'
 export default function Info () {
   const { title, content } = infoContent
   return (
-    <div className="content">
+    <div id="info" className="content">
       <div className="content-title-box">
         <h1 className="title-text">{title}</h1>
       </div>

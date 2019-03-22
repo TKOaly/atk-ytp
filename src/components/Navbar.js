@@ -12,8 +12,12 @@ export default function Navbar () {
   return (
     <div className={styles.navbar}>
       <ul className={classes}>
-        <li className={styles['navbar__item']}>etusivu</li>
-        <li className={styles['navbar__item']}>yleisinfo</li>
+        <li className={styles['navbar__item']}>
+          <a onClick={() => setNavmenuVisible(false)} href="#">etusivu</a>
+        </li>
+        <li className={styles['navbar__item']}>
+          <a onClick={() => setNavmenuVisible(false)} href="#info">yleisinfo</a>
+        </li>
       </ul>
 
       <div
