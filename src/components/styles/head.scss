@@ -42,7 +42,6 @@
   margin-top: 0;
   font-family: 'Roboto-thin';
   color: rgba(228, 255, 47, 1);
-
 }
 
 .head-image {
@@ -51,54 +50,80 @@
 }
 
 .head-cloud {
-  transition: all 0.4s cubic-bezier(0,0,0.2,1);
   position: absolute;
   padding: 5px;
   top: 100px;
   left: 40px;
   width: 75px;
   height: 75px;
+  @for $i from 1 through 8 {
+    &.c#{$i} {
+      //scss random function to the duration and the delay
+      animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
+      top: random(350)+30px;
+      left: random(2000)+px;  
+    }
+  }
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
-.head-cloud.c2 {
-  position: absolute;
-  top: 500px;
-  left: 300px;
-  width: 75px;
-  height: 75px;
+@keyframes moveRight {
+  0%,
+  10% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  90%,
+  100% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
 }
 
-.head-cloud.c3 {
-  position: absolute;
-  top: 124px;
-  left: 900px;
-  width: 75px;
-  height: 75px;
-}
+// .head-cloud.c2 {
+//   position: absolute;
+//   top: 500px;
+//   left: 300px;
+//   width: 75px;
+//   height: 75px;
+// }
 
-.head-cloud.c4 {
-  position: absolute;
-  top: 174px;
-  left: 1200px;
-  width: 75px;
-  height: 75px;
-}
+// .head-cloud.c3 {
+//   position: absolute;
+//   top: 124px;
+//   left: 900px;
+//   width: 75px;
+//   height: 75px;
+// }
 
-.head-cloud.c5 {
-  position: absolute;
-  top: 350px;
-  left: 1000px;
-  width: 75px;
-  height: 75px;
-}
+// .head-cloud.c4 {
+//   position: absolute;
+//   top: 174px;
+//   left: 1200px;
+//   width: 75px;
+//   height: 75px;
+// }
 
-.head-cloud.c6 {
-  position: absolute;
-  top: 234px;
-  left: 234px;
-  width: 75px;
-  height: 75px;
-}
+// .head-cloud.c5 {
+//   position: absolute;
+//   top: 350px;
+//   left: 1000px;
+//   width: 75px;
+//   height: 75px;
+// }
+
+// .head-cloud.c6 {
+//   position: absolute;
+//   top: 234px;
+//   left: 234px;
+//   width: 75px;
+//   height: 75px;
+// }
 
 .cloud-translate:hover {
   transform: translateY(-10px)
@@ -118,7 +143,6 @@
   .head-cloud {
     display: none;
   }
-
   .head-isovitunkirkko {
     width: 200px;
     height: 200px;
