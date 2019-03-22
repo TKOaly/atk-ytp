@@ -1,7 +1,6 @@
 .navbar {
   height: 60px;
   line-height: 60px;
-  padding-left: 25px;
   position: sticky; // Sticky nav
   top: 0; // Top of the page
   width: 100%;
@@ -20,12 +19,17 @@
   display: inline;
   cursor: pointer;
   margin-right: 44px;
-  transition: color 0.5s;
+  a {
+    transition: color 0.5s;
+    text-decoration: none;
+    color: rgba(228, 255, 47, 1);
+  }
+
+  a:hover {
+    color: rgba(227, 255, 47, 0.7);
+  }
 }
 
-.navbar__item:hover {
-  color: rgba(227, 255, 47, 0.7);
-}
 
 @media (max-width: 1000px) {
   .burger {
@@ -40,8 +44,8 @@
     max-height: 0px;
     width: 100vw;
     margin-top: 50px;
-    display: none;
     position: fixed;
+    display: none;
     z-index: 999;
     background-color: hsl(68, 100%, 59%);
     animation: slide-up 0.5s ease-in;
@@ -51,8 +55,7 @@
   .visible {
     display: block;
     max-height: 90vh;
-    animation: slide-down 0.25s ease-in;
-
+    animation: slide-down 0.3s ease-in;
   }
 
   .navbar__item {
@@ -63,13 +66,15 @@
     display: block;
     cursor: pointer;
     margin-right: 44px;
-    transition: color 0.5s;
-  }
+    a {
+      text-decoration: none;
+      color: #ff9ec2;
+    }
 
-  .navbar__item:hover {
-    color: rgba(252, 131, 175, 0.7);
+    a:hover {
+      color: rgba(252, 131, 175, 0.7);
+    }
   }
-  
 }
 
 @keyframes slide-down {
@@ -78,6 +83,6 @@
 }
 
 @keyframes slide-up {
-  0% { opacity: 1; max-height: 90vh; }   
-100% { opacity: 1; max-height: 0; }
+  0% { display: block; max-height: 90vh; }   
+100% { display: none; max-height: 0; }
 }

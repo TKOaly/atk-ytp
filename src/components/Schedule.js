@@ -3,7 +3,7 @@ import './styles/content.scss'
 
 export default function Schedule () {
   return (
-    <div className="content">
+    <div id="schedule" className="content">
       <div className="content-content-box inverted">
         <div className="content-text-wrapper">
           <p className="content-text">TBA</p>
