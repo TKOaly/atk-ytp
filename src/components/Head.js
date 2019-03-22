@@ -7,12 +7,12 @@ export default function Head (props) {
 
   const createClouds = () => {
     const clouds = ['cloud.png', 'cloud2.png']
-    const arr = Array.apply(null, { length: 6 }).map((_, i) => (
+    const arr = Array.apply(null, { length: 8 }).map((_, i) => (
       <img
         key={i}
         src={`/img/${clouds[Math.floor(Math.random() * 2)]}`}
         alt=""
-        className={`head-cloud ${i > 0 ? 'c' + (i + 1) : ''} cloud-translate`}
+        className={`head-cloud c${i+1} cloud-translate`}
       />
     ))
     console.log(arr)
