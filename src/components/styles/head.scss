@@ -66,8 +66,8 @@
       &.c#{$i} {
         //scss random function to the duration and the delay
         animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
-        top: random(350)+30px;
-        left: random(2000)+px;  
+        top: percentage((random(10) / 100) + 10/100);
+        left: percentage(random(50) / 100);  
       }
     }
     backface-visibility: hidden;
@@ -91,46 +91,6 @@
     opacity: 0;
   }
 }
-
-// .head-cloud.c2 {
-//   position: absolute;
-//   top: 500px;
-//   left: 300px;
-//   width: 75px;
-//   height: 75px;
-// }
-
-// .head-cloud.c3 {
-//   position: absolute;
-//   top: 124px;
-//   left: 900px;
-//   width: 75px;
-//   height: 75px;
-// }
-
-// .head-cloud.c4 {
-//   position: absolute;
-//   top: 174px;
-//   left: 1200px;
-//   width: 75px;
-//   height: 75px;
-// }
-
-// .head-cloud.c5 {
-//   position: absolute;
-//   top: 350px;
-//   left: 1000px;
-//   width: 75px;
-//   height: 75px;
-// }
-
-// .head-cloud.c6 {
-//   position: absolute;
-//   top: 234px;
-//   left: 234px;
-//   width: 75px;
-//   height: 75px;
-// }
 
 .head-cloud2 {
   width: 75px;
@@ -160,8 +120,8 @@
       &.c#{$i} {
         //scss random function to the duration and the delay
         animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
-        top: random(200)+30px;
-        left: 0;  
+        top: percentage((random(10) / 100) + 5/100);
+        left: percentage(random(50) / 100);  
       }
     }
     backface-visibility: hidden;
