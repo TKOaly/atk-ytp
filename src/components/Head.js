@@ -12,7 +12,7 @@ export default function Head () {
         key={i}
         src={`/img/${clouds[Math.floor(Math.random() * 2)]}`}
         alt=""
-        className={`head-cloud c${i+1} cloud-translate`}
+        className={`head-cloud c${i + 1} cloud-translate`}
       />
     ))
     console.log(arr)
