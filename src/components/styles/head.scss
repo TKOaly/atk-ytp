@@ -53,24 +53,26 @@
   height: 400px;
 }
 
-.head-cloud {
-  position: absolute;
-  padding: 5px;
-  top: 100px;
-  left: 40px;
-  width: 75px;
-  height: 75px;
-  opacity: 0;
-  @for $i from 1 through 8 {
-    &.c#{$i} {
-      //scss random function to the duration and the delay
-      animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
-      top: random(350)+30px;
-      left: random(2000)+px;  
+@media(min-width: 1200px) {
+  .head-cloud {
+    position: absolute;
+    padding: 5px;
+    top: 100px;
+    left: 40px;
+    width: 75px;
+    height: 75px;
+    opacity: 0;
+    @for $i from 1 through 8 {
+      &.c#{$i} {
+        //scss random function to the duration and the delay
+        animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
+        top: random(350)+30px;
+        left: random(2000)+px;  
+      }
     }
+    backface-visibility: hidden;
+    perspective: 1000px;
   }
-  backface-visibility: hidden;
-  perspective: 1000px;
 }
 
 @keyframes moveRight {
@@ -159,7 +161,7 @@
         //scss random function to the duration and the delay
         animation: moveRight #{(random(14)/2) + 10}s linear infinite #{random(7)/2}s;
         top: random(200)+30px;
-        left: 40px + random(400);  
+        left: 0;  
       }
     }
     backface-visibility: hidden;
