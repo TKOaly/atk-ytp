@@ -13,7 +13,7 @@ export default function Navbar () {
     <div className={styles.navbar}>
       <ul className={classes}>
         <li className={styles['navbar__item']}>
-          <a onClick={() => setNavmenuVisible(false)} href="#">etusivu</a>
+          <a onClick={() => setNavmenuVisible(false)} href="#home">etusivu</a>
         </li>
         <li className={styles['navbar__item']}>
           <a onClick={() => setNavmenuVisible(false)} href="#info">yleisinfo</a>
