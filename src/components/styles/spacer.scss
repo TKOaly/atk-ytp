@@ -7,19 +7,18 @@
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  border-bottom: solid black 5px;
-  border-top: solid black 5px;
-  background-color: #FF9EC2;
+  background-color: #ffb5d5;
   position: absolute;
   height: 75px;
 }
 
 .marquee span {
   display: inline-block;
+  font-family: 'Roboto-medium';
   padding-left: 100%;
   font-size: 32px;
   word-spacing: 100px;
-  color: rgba(228, 255, 47, 1);
+  color: #fff8fb;
   animation: marquee 30s linear infinite;
   z-index:100;
   position: relative;

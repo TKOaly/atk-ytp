@@ -1,6 +1,6 @@
 .navbar {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   padding-left: 25px;
   position: sticky; // Sticky nav
   top: 0; // Top of the page
@@ -8,6 +8,7 @@
   height: 50px;
   background-color: #ff9ec2;
   z-index: 999; // Make sure the navbar stays on top of every element on the page
+  border-bottom: 1px solid #fff8fb;
 }
 
 .navbar__items {
@@ -15,19 +16,21 @@
 }
 
 .navbar__item {
-  color: rgba(228, 255, 47, 1);
   font-family: "Roboto-medium";
   display: inline;
   cursor: pointer;
   margin-right: 44px;
-  a {
-    transition: color 0.5s;
-    text-decoration: none;
-    color: rgba(228, 255, 47, 1);
+  .active {
+    color:  #e4ff2f;
   }
+}
 
-  a:hover {
-    color: rgba(227, 255, 47, 0.7);
+.navbar__item-text {
+  text-decoration: underline;
+  color: #fff8fb;
+
+  &.active {
+    color:  #e4ff2f;
   }
 }
 

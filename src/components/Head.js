@@ -22,14 +22,14 @@ export default function Head () {
   return (
     <div className="hero-content">
       <div className="hero-content-wrapper">
-        <h1 className="hero-title">{title}</h1>
-        <h2 className="hero-subtitle">{subtitle}</h2>
-        <CountdownTimer startDate={date} />
         <img
           src="/img/isovitunkirkko.png"
           alt=""
           className="head-isovitunkirkko"
         />
+        <h1 className="hero-title">{title}</h1>
+        <h2 className="hero-subtitle">{subtitle}</h2>
+        <CountdownTimer startDate={date} />
         {createClouds()}
       </div>
     </div>

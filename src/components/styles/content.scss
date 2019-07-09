@@ -1,15 +1,18 @@
 .content {
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+
+  &.timetable {
+    background-color: #fff8fb;
+  }
 }
 
 .content-title-box {
-  background: linear-gradient(103deg, #fffa00, #02ff00, #00f2ff, #e3ff00);  background-size: 800% 800%;
-  animation: TitileBoxGradientAnim 32s ease infinite;
-  clip-path: polygon(50% 10%, 90% 10%, 90% 19%, 80% 64%, 38% 90%, 10% 90%, 15% 44%, 33% 15%);
-  width: 33vw;
-  height: 100vh;
+  margin-top: 100px;
+  width: 100vw;
+  height: 200px;
   align-self: row;
   order: 0;
   text-align: center;
@@ -17,30 +20,30 @@
 
 }
 
-.content-title-box.inverted {
-  order: 1;
-}
-
 .content-content-box {
-  background-color: #ffdad9;
-  width: 67vw;
-  height: 100vh;
+  background-color: #e4ff30;
+  width: 60vw;
   order: 1;
   overflow: auto;
-}
+  margin-bottom: 200px;
 
-.content-content-box.inverted {
-  order: 0;
+  &.timetable {
+    background-color: #ffff;
+    border: 1px solid #ffb5d5;
+  }
 }
-
 
 
 .title-text {
-  font-size: 55px;
-  display:table-cell; /*acts like a table cell*/
+  font-family: 'Roboto-medium';
+  font-size: 60px;
+  display: table-cell; /*acts like a table cell*/
   vertical-align: middle;
-  color: #FF9EC2;
-  letter-spacing: 10px;
+  color: #e3ff00;
+
+  &.timetable {
+    color: #ff97c4;
+  }
 }
 
 .content-text {
@@ -79,10 +82,4 @@
     font-size: 17px;
   }
 
-}
-
-@keyframes TitileBoxGradientAnim { 
-  0%{background-position:0% 19%}
-  50%{background-position:100% 82%}
-  100%{background-position:0% 19%}
 }
