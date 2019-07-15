@@ -1,0 +1,46 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3b3b3b;
+}
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3%;
+}
+.iconTg {
+  background: url('../../content/tg.png');
+  margin: 16px;
+  height: 64px;
+  width: 64px;
+}
+.iconIg {
+  background: url('../../content/ig.png');
+  margin: 16px;
+  height: 64px;
+  width: 64px;
+}
+.iconFb {
+  background: url('../../content/fb.png');
+  margin: 16px;
+  height: 64px;
+  width: 64px;
+}
+.footerText {
+  font-family: 'Roboto-medium';
+  font-size: 20px;
+  color: #FFF8FB;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

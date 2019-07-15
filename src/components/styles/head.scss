@@ -58,16 +58,16 @@
     position: absolute;
     padding: 5px;
     top: 100px;
-    left: 40px;
+    left: 0%;
     width: 75px;
     height: 75px;
     opacity: 0;
     @for $i from 1 through 8 {
       &.c#{$i} {
         //scss random function to the duration and the delay
-        animation: moveRight #{(random(16)/2) + 4}s linear infinite #{random(7)/2}s;
+        animation: moveRight #{(random(16)/2) + 10}s linear infinite #{random(7)/2}s;
         top: percentage((random(10) / 100) + 10/100);
-        left: percentage(random(50) / 100);  
+        left: percentage(random(50) / 66);  
       }
     }
     backface-visibility: hidden;
@@ -87,7 +87,7 @@
   }
   90%,
   100% {
-    transform: translateX(50%);
+    transform: translateX(70%);
     opacity: 0;
   }
 }

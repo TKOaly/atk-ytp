@@ -1,29 +1,43 @@
 import React, { useState } from 'react'
-import styles from './styles/navbar.module.scss'
 import classnames from 'classnames'
+import * as R from 'ramda'
+import './styles/navbar.scss'
+
 
 export default function Navbar () {
   const [navmenuVisible, setNavmenuVisible] = useState(false)
+  const [activeTab, setActiveTab] = useState('#home')
   const classes = classnames({
-    [styles['navbar__items']]: true,
-    [styles.visible]: navmenuVisible
+    'navbar__items': true,
+    'visible': navmenuVisible
   })
 
   return (
-    <div className={styles.navbar}>
+    <div className="navbar">
       <ul className={classes}>
-        <li className={styles['navbar__item']}>
-          <a onClick={() => setNavmenuVisible(false)} href="#home">etusivu</a>
-        </li>
-        <li className={styles['navbar__item']}>
-          <a onClick={() => setNavmenuVisible(false)} href="#info">yleisinfo</a>
-        </li>
+        {renderNavBarItem('#home', 'etusivu', activeTab, setNavmenuVisible, setActiveTab)}
+        {renderNavBarItem('#info', 'yleisinfo', activeTab, setNavmenuVisible, setActiveTab)}
+        {renderNavBarItem('#schedule', 'aikataulu', activeTab, setNavmenuVisible, setActiveTab)}
       </ul>
 
       <div
         onClick={() => setNavmenuVisible(!navmenuVisible)}
-        className={styles.burger}
+        className="burger"
       />
     </div>
+  )
+}
+
+function renderNavBarItem(href, label, activeTab, setNavmenuVisible, setActiveTab) {
+  const handleClick = R.pipe(setActiveTab, () => setNavmenuVisible(false))
+  return (
+    <li className="navbar__item">
+      <a
+        className={classnames('navbar__item-text', { active: activeTab === href })}
+        onClick={() => handleClick(href)} href={href}
+      >
+        {label}
+      </a>
+    </li>
   )
 }

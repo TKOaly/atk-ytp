@@ -5,6 +5,7 @@ import './App.scss'
 import Info from './components/Info'
 import Schedule from './components/Schedule'
 import Spacer from './components/Spacer'
+import Footer from './components/Footer'
 
 class App extends Component {
   render () {
@@ -15,6 +16,7 @@ class App extends Component {
         <Info />
         <Spacer />
         <Schedule />
+        <Footer />
       </div>
     )
   }
