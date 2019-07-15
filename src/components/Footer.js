@@ -6,9 +6,9 @@ export default function Footer () {
   <footer>
     <div className="footerContainer">
     <div className="iconContainer" >
-     <a className="iconFb" href="https://fi-fi.facebook.com/TKOaly"></a>
-     <a className="iconTg" href="https://t.me/joinchat/Cl6rokNcVUL0x6o0aGxO-g"></a>
-     <a className="iconIg" href="https://www.instagram.com/tkoaly/?hl=en"></a>
+     <a className="iconFb" href="https://fi-fi.facebook.com/TKOaly">{''}</a>
+     <a className="iconTg" href="https://t.me/joinchat/Cl6rokNcVUL0x6o0aGxO-g">{''}</a>
+     <a className="iconIg" href="https://www.instagram.com/tkoaly/?hl=en">{''}</a>
     </div>
       <div className="textContainer">
         <a className="footerText" href="https://www.tko-aly.fi" >TKO-äly.fi</a>
