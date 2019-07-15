@@ -67,7 +67,7 @@
         //scss random function to the duration and the delay
         animation: moveRight #{(random(16)/2) + 10}s linear infinite #{random(7)/2}s;
         top: percentage((random(10) / 100) + 10/100);
-        left: percentage(random(50) / 100);  
+        left: percentage(random(50) / 66);  
       }
     }
     backface-visibility: hidden;
