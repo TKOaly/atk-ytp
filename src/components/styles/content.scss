@@ -112,6 +112,7 @@
 @media (max-width: 1000px) {
   .content {
     flex-direction: column;
+    align-items: flex-start;
   }
   
   .content-title-box {
@@ -120,8 +121,8 @@
   }
 
   .content-content-box {
-    width: 80%;
-    height: 80vh;
+    width: 80vw;
+    margin-left: 10px;
   }
 
   .content-title-box.inverted {
@@ -132,14 +133,35 @@
     order: 1;
   }
 
+  .title-text {
+    font-size: 30px;
+  }
+
+  .schedule-day__header {
+    font-family: 'Roboto-medium';
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .info-content-background-box {
+    transform: translate3d(20px, 20px, 0px);
+    border: 3px solid #e3ff00;
+  }
+
+  .schedule-icon {
+    width: 60px;
+    height: 60px;
+    right: -40px;
+  }
+
   .content-text {
     font-size: 17px;
   }
 
   .info-icon {
-    width: 75px;
-    height: 75px;
-    top: -75px;
+    width: 70px;
+    height: 60px;
+    top: -0px;
     right: -50px; 
   }
 

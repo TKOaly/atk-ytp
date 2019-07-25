@@ -42,7 +42,6 @@ function CountdownTimer ({ startDate }) {
     const intervalId = setInterval(() => tick(new Date()), 1000)
     return () => clearInterval(intervalId)
   })
-  console.log(timeLeft)
 
   const parseTimeValues = (date) => {
     const distance = new Date(startDate).getTime() - date.getTime()

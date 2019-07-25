@@ -11,9 +11,7 @@ export default function Footer () {
      <a className="iconIg" href="https://www.instagram.com/tkoaly/?hl=en">{''}</a>
     </div>
       <div className="textContainer">
-        <a className="footerText" href="https://www.tko-aly.fi" >TKO-äly.fi</a>
-        <a className="footerText" href="http://mol.fi" >atk-ytp@vittusaatana.fi</a>
-        
+        <a className="footerText" href="https://www.tko-aly.fi" >TKO-äly ry</a>      
       </div>
     </div>
   </footer>
