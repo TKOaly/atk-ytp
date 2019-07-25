@@ -108,6 +108,18 @@
     height: 200px;
   }
 
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 30px;
+
+    &.countdown {
+      font-size: 15px;
+    }
+  }
+
   .head-cloud {
     position: absolute;
     padding: 5px;
