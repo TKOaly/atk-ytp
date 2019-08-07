@@ -21,7 +21,7 @@
   cursor: pointer;
   margin-right: 44px;
   .active {
-    color:  #e4ff2f;
+    color:  #ff9ec2;
   }
 }
 
@@ -30,7 +30,7 @@
   color: #fff8fb;
 
   &.active {
-    color:  #e4ff2f;
+    color: rgba(228, 255, 47, 1);
   }
 }
 
@@ -55,28 +55,28 @@
     position: fixed;
     display: none;
     z-index: 999;
-    background-color: hsl(68, 100%, 59%);
+    background-color: #ff9ec2;
     animation: slide-up 0.5s ease-in;
-
+    border-bottom: 1px solid #fff8fb;
   }
 
   .visible {
     display: block;
     max-height: 90vh;
-    animation: slide-down 0.3s ease-in;
+    animation: slide-down 0.2s ease-in;
   }
 
   .navbar__item {
-    color: #ff9ec2;
+    color: #fff8fb;
     font-family: "Roboto-medium";
-    font-size: 50px;
-    margin: 30px;
+    font-size: 20px;
+    margin: 5px;
     display: block;
     cursor: pointer;
     margin-right: 44px;
     a {
-      text-decoration: none;
-      color: #ff9ec2;
+      text-decoration: underline;
+      color: #fff8fb;
     }
 
     a:hover {
