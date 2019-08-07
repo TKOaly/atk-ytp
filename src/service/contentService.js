@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const PROD_URL = 'https://mysterious-wave-58026.herokuapp.com/api/content/calendars/ke'
+const PROD_URL = 'https://mysterious-wave-58026.herokuapp.com'
 
 const resolveUri = () =>
   typeof window === 'undefined' ? PROD_URL : (window.location.hostname === 'localhost' ? 'http://localhost:3000' : PROD_URL)
