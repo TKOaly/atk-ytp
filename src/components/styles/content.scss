@@ -109,6 +109,33 @@
   padding: 30px;
 }
 
+.timetable-table {
+  width: 100%;
+  th {
+    font-family: 'Roboto-medium';
+    text-align: left;
+    font-size: 25px;
+  }
+
+  tr {
+    font-family: 'Roboto-medium';
+    text-align: left;
+    font-size: 20px;
+    td {
+      padding: 20px 0px 20px 0px;
+      border-bottom: 3px solid #FF97C4;
+    }
+  }
+}
+
+.program-row {
+  .program-row-place {
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+  }
+}
+
 @media (max-width: 1000px) {
   .content {
     flex-direction: column;

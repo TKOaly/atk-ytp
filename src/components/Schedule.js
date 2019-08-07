@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './styles/content.scss'
+import { getSchedule } from '../service/contentService';
 
 export default function Schedule () {
   return (
@@ -13,7 +14,7 @@ export default function Schedule () {
         </div>
         <div className="content-text-wrapper">
           <h2 className="schedule-day__header">Keskiviikko</h2>
-          <p className="content-text">Aikataulut tulevat myöhemmin näkyviin!</p>
+          <ScheduleTable day="ke" />
         </div>
       </div>
       <div className="content-content-box timetable">
@@ -22,7 +23,7 @@ export default function Schedule () {
         </div>
         <div className="content-text-wrapper">
           <h2 className="schedule-day__header">Torstai</h2>
-          <p className="content-text">Aikataulut tulevat myöhemmin näkyviin!</p>
+          <ScheduleTable day="to" />
         </div>
       </div>
       <div className="content-content-box timetable">
@@ -31,9 +32,36 @@ export default function Schedule () {
         </div>
         <div className="content-text-wrapper">
           <h2 className="schedule-day__header">Perjantai</h2>
-          <p className="content-text">Aikataulut tulevat myöhemmin näkyviin!</p>
+          <ScheduleTable day="pe" />
         </div>
       </div>
     </div>
+  )
+}
+
+function ScheduleTable({ day }) {
+  const [events, setEvents] = useState([])
+  useEffect(() => {
+    getSchedule(day)
+      .then(setEvents)
+  }, [])
+
+  return (
+    <table className="timetable-table">
+      <tr>
+        <th>klo</th>
+        <th>ohjelma</th>
+      </tr>
+      {events.map(({ time, eventName, eventPlace }) => (
+        <tr>
+        <td>{time}</td>
+        <td>
+          <div className="program-row">
+            <p className="program-row-name">{eventName}</p>
+            <p className="program-row-place">{eventPlace}</p>
+          </div>
+        </td>
+      </tr>))}
+    </table>
   )
 }
