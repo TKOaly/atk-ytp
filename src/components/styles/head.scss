@@ -132,12 +132,28 @@
       &.c#{$i} {
         //scss random function to the duration and the delay
         animation: moveRight #{(random(10)/2) + 5}s linear infinite #{random(7)/2}s;
-        top: percentage((random(10) / 100) + 5/100);
+        top: percentage((random(10) / 80) + 5/100);
         left: percentage(random(50) / 100);  
       }
     }
     backface-visibility: hidden;
     perspective: 1000px;
   }
-  
+
+  @keyframes moveRight {
+    0%,
+    10% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    90%,
+    100% {
+      transform: translateX(90%);
+      opacity: 0;
+    }
+  }
 }
