@@ -1,7 +1,7 @@
 {
   "short_name": "ATK-YTP 2019",
   "name": "ATK-YTP 2019: Helsinki",
-  "icons": [],
+  "icons": ["icon.png"],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#FF9EC2",
