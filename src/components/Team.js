@@ -3,7 +3,7 @@ import { getTeam } from '../service/contentService'
 
 export default function Team() {
   return (
-      <div id="info" className="content">
+      <div id="team" className="content">
         <div className="content-title-box">
             <h1 className="title-text">Tiimi</h1>
         </div>

@@ -18,6 +18,7 @@ export default function Navbar () {
         {renderNavBarItem('#home', 'etusivu', activeTab, setNavmenuVisible, setActiveTab)}
         {renderNavBarItem('#info', 'yleisinfo', activeTab, setNavmenuVisible, setActiveTab)}
         {renderNavBarItem('#schedule', 'aikataulu', activeTab, setNavmenuVisible, setActiveTab)}
+        {renderNavBarItem('#team', 'tiimi', activeTab, setNavmenuVisible, setActiveTab)}
       </ul>
 
       <div
