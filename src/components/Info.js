@@ -18,12 +18,12 @@ export default function Info () {
       <div className="content-title-box">
         <h1 className="title-text">{content.title}</h1>
       </div>
-        <div className="content-content-box">
+      <div className="content-content-box">
         <div className="info-content-background-box">
           <div className="info-icon" />
         </div>
-          <div className="content-text-wrapper">
-            <ReactMarkdown source={content.text} renderers={renderer} />
+        <div className="content-text-wrapper">
+          <ReactMarkdown source={content.text} renderers={renderer} />
         </div>
       </div>
     </div>
