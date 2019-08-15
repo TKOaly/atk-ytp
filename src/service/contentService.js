@@ -17,3 +17,8 @@ export const getSchedule = day =>
     axios
       .get(`${resolveUri()}/api/content/calendars/${day}`)
       .then(({data}) => data)
+
+export const getTeam = () =>
+    axios
+      .get(`${resolveUri()}/api/content/people`)
+      .then(({data}) => data)
