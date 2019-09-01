@@ -7,6 +7,7 @@ import Schedule from './components/Schedule'
 import Spacer from './components/Spacer'
 import Footer from './components/Footer'
 import Team from './components/Team'
+import Accomodation from './components/Accomodation'
 
 class App extends Component {
   render () {
@@ -17,6 +18,8 @@ class App extends Component {
         <Info />
         <Spacer />
         <Schedule />
+        <Spacer />
+        <Accomodation />
         <Spacer />
         <Team />
         <Footer />

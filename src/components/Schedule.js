@@ -52,16 +52,18 @@ function ScheduleTable({ day }) {
         <th>klo</th>
         <th>ohjelma</th>
       </tr>
-      {events.map(({ time, eventName, eventPlace }) => (
-        <tr>
-        <td>{time}</td>
-        <td>
-          <div className="program-row">
-            <p className="program-row-name">{eventName}</p>
-            <p className="program-row-place">{eventPlace}</p>
-          </div>
-        </td>
-      </tr>))}
+      <tbody>
+        {events.map(({ time, eventName, eventPlace }) => (
+          <tr>
+          <td>{time}</td>
+          <td>
+            <div className="program-row">
+              <p className="program-row-name">{eventName}</p>
+              <p className="program-row-place">{eventPlace}</p>
+            </div>
+          </td>
+        </tr>))}
+      </tbody>
     </table>
   )
 }

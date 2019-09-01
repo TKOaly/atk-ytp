@@ -22,3 +22,8 @@ export const getTeam = () =>
     axios
       .get(`${resolveUri()}/api/content/people`)
       .then(({data}) => data)
+
+export const getAccomodationInfo = () =>
+    axios
+      .get(`${resolveUri()}/api/content/accomodation`)
+      .then(({data}) => data)

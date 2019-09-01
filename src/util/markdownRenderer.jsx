@@ -8,5 +8,10 @@ export const renderer = {
       <br/>
       <br/>
     </>
-  )
+  ),
+  link: props =>
+  <div className="accomodation-link">
+    <a href={props.href} className="accomodation-link-button">{props.children}</a>
+  </div>
+  
 }
