@@ -27,3 +27,8 @@ export const getAccomodationInfo = () =>
     axios
       .get(`${resolveUri()}/api/content/accomodation`)
       .then(({data}) => data)
+
+export const getSponsors = () =>
+    axios
+      .get(`${resolveUri()}/api/content/sponsors`)
+      .then(({data}) => data)

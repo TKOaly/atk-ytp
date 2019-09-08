@@ -8,6 +8,7 @@ import Spacer from './components/Spacer'
 import Footer from './components/Footer'
 import Team from './components/Team'
 import Accomodation from './components/Accomodation'
+import Sponsors from './components/Sponsors'
 
 class App extends Component {
   render () {
@@ -22,6 +23,8 @@ class App extends Component {
         <Accomodation />
         <Spacer />
         <Team />
+        <Spacer />
+        <Sponsors />
         <Footer />
       </div>
     )

@@ -10,6 +10,11 @@
   &.timetable {
     background-color: #fff8fb;
   }
+
+  &.sponsors {
+    background-color: white;
+    align-items: center;
+  }
 }
 
 .content-title-box {
@@ -173,7 +178,13 @@
 .peep-title {
   font-family: 'Roboto-medium';
   font-size: 15px;
+}
 
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
 }
 
 @media (max-width: 1000px) {
