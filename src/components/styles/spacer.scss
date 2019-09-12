@@ -1,40 +1,23 @@
-.spanner-container {
-  height: 75px;
-}
 
 .marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
   margin: 0 auto;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   background-color: #ffb5d5;
-  position: absolute;
   height: 75px;
 }
 
-.marquee span {
+.marquee p {
   display: inline-block;
   font-family: 'Roboto-medium';
-  padding-left: 100%;
-  font-size: 32px;
-  word-spacing: 100px;
+  font-size: 20px;
   color: #fff8fb;
-  animation: marquee 30s linear infinite;
   z-index:100;
   position: relative;
-  top: 25%;
-}
-
-.marquee2 span {
-  animation-delay: 15s;
-}
-
-/* Make it move */
-@keyframes marquee {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
+  margin: 0 20px;
 }
