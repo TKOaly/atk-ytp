@@ -1,17 +1,17 @@
 import React from 'react'
 import './styles/spacer.scss'
+import Ticker from 'react-ticker'
 
 export default function Spacer () {
+  const organizations = ['Asteriski', 'Blanko', 'Digit', 'Dumppi', 'Epsilon', 'Giga', 'Infå', 'Linkki', 'Luuppi', 'Serveri', 'TKO-äly', 'TuKYData', 'Tutti', 'Ynnä', 'Skripti']
+
   return (
-    <div className="marquee">
-      <p>TKO-äly</p>
-      <p>Linkki</p>
-      <p>Skripti</p>
-      <p>TiTOL</p>
-      <p>Asteriski</p>
-      <p>Serveri</p>
-      <p>Luuppi</p>
-      <p>Blanko</p>
+    <div className='spacer'>
+      <Ticker speed='9' offset='run-in'>
+        {({ index }) => (
+          <p className='spacer_element'>{organizations[index % organizations.length]}</p>
+        )}
+      </Ticker>
     </div>
   )
 }
