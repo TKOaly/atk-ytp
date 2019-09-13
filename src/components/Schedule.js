@@ -55,7 +55,9 @@ function ScheduleTable({ day }) {
       <tbody>
         {events.map(({ time, eventName, eventPlace }) => (
           <tr>
-          <td>{time}</td>
+          <td>
+            <p className="program-row-time">{time}</p>
+          </td>
           <td>
             <div className="program-row">
               <p className="program-row-name">{eventName}</p>
