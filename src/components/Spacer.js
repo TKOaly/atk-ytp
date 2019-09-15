@@ -7,7 +7,7 @@ export default function Spacer () {
 
   return (
     <div className='spacer'>
-      <Ticker speed='9' offset='run-in'>
+      <Ticker speed='9'>
         {({ index }) => (
           <p className='spacer_element'>{organizations[index % organizations.length]}</p>
         )}
