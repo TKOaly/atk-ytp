@@ -12,17 +12,17 @@ export default function Sponsors () {
   const mainSponsor = sponsors.shift()
 
   return (
-    <div id="sponsors" className="content sponsors">
+    <div id="partners" className="content sponsors">
       
       <div className="content-title-box">
-        <h1 className="title-text timetable">Sponsorit</h1>
+        <h1 className="title-text sponsor">Yhteistyökumppanit</h1>
       </div>
       <div className="sponsor-container">
-        <h2 className="accomodation__header">Pääsponsori:</h2>
+        <h2 className="sponsor__header">Pääyhteistyökumppani:</h2>
         {!!mainSponsor && <a href={mainSponsor.url}>
           <img width="250px" src={`/img/${mainSponsor.logoUrl}`} alt={mainSponsor.name} style={{ margin: '20px 0px 20px 0px' }} />
         </a>}
-        <h2 className="accomodation__header">Muut sponsorit:</h2>
+        <h2 className="sponsor__header">Muut yhteistyökumppanit:</h2>
         <SponsorList sponsors={sponsors} />
       </div>
     </div>

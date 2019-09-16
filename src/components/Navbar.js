@@ -20,7 +20,7 @@ export default function Navbar () {
         {renderNavBarItem('#schedule', 'aikataulu', activeTab, setNavmenuVisible, setActiveTab)}
         {renderNavBarItem('#accomodation', 'majoitus', activeTab, setNavmenuVisible, setActiveTab)}
         {renderNavBarItem('#team', 'tiimi', activeTab, setNavmenuVisible, setActiveTab)}
-        {renderNavBarItem('#sponsors', 'sponsorit', activeTab, setNavmenuVisible, setActiveTab)}
+        {renderNavBarItem('#partners', 'yhteistyökumppanit', activeTab, setNavmenuVisible, setActiveTab)}
 
       </ul>
 
