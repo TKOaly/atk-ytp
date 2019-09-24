@@ -50,7 +50,7 @@ function CountdownTimer ({ startDate }) {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
     const seconds = Math.floor((distance % (1000 * 60)) / 1000)
 
-    return distance > 0 ? `${days} päivää, ${hours} tuntia, ${minutes} minuuttia, ${seconds} sekunttia` : 'OHI ON!'
+    return distance > 0 ? `${days} päivää, ${hours} tuntia, ${minutes} minuuttia, ${seconds} sekuntia` : 'OHI ON!'
   }
 
   return (
