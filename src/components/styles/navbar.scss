@@ -56,14 +56,12 @@
     display: none;
     z-index: 999;
     background-color: #ff9ec2;
-    animation: slide-up 0.5s ease-in;
     border-bottom: 1px solid #fff8fb;
   }
 
   .visible {
     display: block;
     max-height: 90vh;
-    animation: slide-down 0.2s ease-in;
   }
 
   .navbar__item {
@@ -83,14 +81,4 @@
       color: rgba(252, 131, 175, 0.7);
     }
   }
-}
-
-@keyframes slide-down {
-  0% { opacity: 1; max-height: 0px; }   
-100% { opacity: 1; max-height: 90vh; }
-}
-
-@keyframes slide-up {
-  0% { display: block; max-height: 90vh; }   
-100% { display: none; max-height: 0; }
 }
