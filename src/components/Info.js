@@ -25,9 +25,6 @@ export default function Info () {
         <div className="content-text-wrapper">
           <ReactMarkdown source={content.text} renderers={renderer} />
         </div>
-        <div className="video">
-          <iframe title="Promovideo" src="https://www.youtube.com/embed/7SU2UXtRGQk" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </div>
       </div>
     </div>
   )
