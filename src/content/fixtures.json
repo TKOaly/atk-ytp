@@ -1,0 +1,227 @@
+{
+  "info": {
+    "title": "Info",
+    "content": "**ATK-yhteis­toiminta­päivät, tai ATK-YTP**, on Tieto­teknii­kan opis­keli­joiden lii­ton eli TiTOLin kaksi­päi­väinen semi­naari­tapah­tuma, joka kerää vuo­sit­tain yh­teen seit­se­mästä yli­opisto­kau­pungista IT-alan opis­ke­li­joita ympäri Suomea. Tapah­tuman järjes­tä­jänä toimii isän­tä­kau­pungin ICT-aine­jär­jestö, joka tänä vuonna on Helsingin Yliopiston tie­tojen­käsit­tely­tie­teiden aine­jär­jestö TKO-äly ry. `` Tapah­tuman ajan­kohta on 16.-18.10.2019. Yhteis­toi­min­tapäivät sisäl­tävät tänä­kin vuonna alan ammat­ti­lais­ten pitä­miä vaikut­tavia luen­toja, joita tänä vuonna pääsee kuun­te­lemaan kym­me­nen kappa­letta. Sen lisäksi TiTOL tapansa mukaan pitää tapah­tuman aikana syys­liit­to­ko­kouk­sensa. Mutta tärkeintä on kuitenkin se, että tapah­tuma tar­joaa vuosit­tain alan opis­keli­joille ympäri Suomen mahdol­li­suuden tutustua toi­siinsa ja verkos­toitua haus­kalla tavalla.\n\n``\n\n[ATK-YTP traileri](https://www.youtube.com/watch?v=7SU2UXtRGQk)\n``\n\n[Keskustassa olevat tärkeät pisteet ->](https://drive.google.com/open?id=1Qgbz-i1IHBg3nymuVIMJ0R0SSLxDInTl&usp=sharing)\n\n``\n\n[Virallinen tiedotuskanava Telegramissa ->](https://t.me/atkytp)"
+  },
+  "schedule": {
+    "ke": [
+      {
+        "time": "09:00",
+        "eventName": "Majoitus avautuu",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "12:00",
+        "eventName": "Majoitus sulkeutuu",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "10:30 - 11:00",
+        "eventName": "Avauspuheenvuorot: TiTOL, TKO-äly, Reaktor",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "11:00 - 12:00",
+        "eventName": "CGI: IT ja Ihminen",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "12:00 - 13:00",
+        "eventName": "Digia: Mikä ihmeen dataplatform?",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "13:00 - 14:00",
+        "eventName": "Futurice: Creating a renewed voting advice application AKA \"Vaalikone\"",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "14:00 - 15:00",
+        "eventName": "Visma: IT markkinan trendit ja tekoälyn hyödyntäminen",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "14:00 - 16:00",
+        "eventName": "TiTOLin syysliittokokous",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 8"
+      },
+      {
+        "time": "15:00 - 16:00",
+        "eventName": "Linda Liukas: Love Letter to the Computer",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "16:30 - 19:30",
+        "eventName": "Suunnistuskierros",
+        "eventPlace": "Helsinki"
+      },
+      {
+        "time": "21:00",
+        "eventName": "Majoitus aukeaa",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "18:00 - 22:30",
+        "eventName": "Vätköt with Efecte",
+        "eventPlace": "Kaapelitehtaan Puristamo, Tallberginkatu 1"
+      },
+      {
+        "time": "22:00 - 04:00",
+        "eventName": "Jatkot with TEK",
+        "eventPlace": "Heidi's bier bar,  Yrjönkatu 24"
+      }
+    ],
+    "to": [
+      {
+        "time": "08:00 - 10:45",
+        "eventName": "Darrasaunat by Reaktor & Wunderdog",
+        "eventPlace": null
+      },
+      {
+        "time": "10:30",
+        "eventName": "Bussit lähtevät majoitukselta",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "11:00",
+        "eventName": "Majoitus sulkeutuu",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "11:00 - 12:00",
+        "eventName": "Indrė Žliobaitė (Department of Computer Science): What can we compute about the history of life? ",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "12:00 - 13:00",
+        "eventName": "Gofore: Chatbotit",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "13:00 - 14:00",
+        "eventName": "Siili: Outolintuna IT-alalla - mitä muuta ala tarjoaa kuin koodaamista?",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "14:00 - 15:00",
+        "eventName": "Wunderdog: Ajatuksia modernista softakehityksestä",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "15:00 - 16:00",
+        "eventName": "Reaktor: Case digitaalinen ylioppilaskoe",
+        "eventPlace": "Helsingin yliopiston päärakennus, Fabianinkatu 33, Sali 1"
+      },
+      {
+        "time": "16:30 - 19:00",
+        "eventName": "IT-rääkki",
+        "eventPlace": "Helsinki"
+      },
+      {
+        "time": "21:00",
+        "eventName": "Majoitus aukeaa",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      },
+      {
+        "time": "18:00 - 22:30",
+        "eventName": "Vätköt with Accenture",
+        "eventPlace": "Kaapelitehtaan Puristamo, Tallberginkatu 1"
+      },
+      {
+        "time": "22:00 - 04:00",
+        "eventName": "Nullausbileet with Reaktor",
+        "eventPlace": "Skohan, Keskuskatu 8"
+      }
+    ],
+    "pe": [
+      {
+        "time": "11:00",
+        "eventName": "Majoitus sulkeutuu",
+        "eventPlace": "Arabian peruskoulu, Berliininkatu 4"
+      }
+    ]
+  },
+  "accomodation": {
+    "mainTitle": "Majoitus ja kuljetukset",
+    "mainContent": "**Ulkopaikkakuntalaisille ATK-YTP-osal­lis­tujille on majoitus Arabian peruskoulun tiloissa osoit­teessa Berliininkatu 4.** Muistathan kunnioittaa tiloja, sekä tiloissa olevia majo­itus­valvo­jia ollessasi majoituksessa.\n\n``\n\nMajoitukseen pääsee helpoiten tilausbussien kanssa, jotka kulkevat yöllä majoituksen ja jatkopaikan välillä. Myös Helsingin loistava julkinen liikenne sekä taksit kannattaa pitää mielessä. Julkisen liikenteen käyttöä varten kannattaa ladata HSL:n sovellus, josta voi ostaa kivuttomasti kertalippuja busseihin, juniin, raitiovaunuihin ja metroihin.\n\n``\n***Bussikuljetukset.*** Keskiviikkoiltana kuljetukset lähtevät Yrjönkatu 24 2:00 alkaen ja torstai-iltana Mikonkadun tilausajopysäkiltä 2:00 alkaen. Viimeinen bussi lähtee molempina iltoina kello 4:30.\nTorstaiaamuna bussikuljetukset lähtevät majoituksesta 10:30 Senaatintorille.\n\n``\n\n[Majoitus Google Mapsissa ->](https://goo.gl/maps/oJwaBG6xSGn7VbEu6)\n\n``\n\n[Tärkeät paikat majoituksen vieressä ->](https://drive.google.com/open?id=1i1lI31XFoNbo_CSbEEyhlh8GAu0fyl4h&usp=sharing)\n``\n\n[Helsingin seudun liikenteen appi Apple Storesta ->](https://apps.apple.com/fi/app/hsl/id1340229182)\n\n``\n\n[Helsingin seudun liikenteen appi Google Playssa ->](https://play.google.com/store/apps/details?id=fi.hsl.app)",
+    "taxiTitle": "Taksitolpat",
+    "taxiContent": "[Yliopiston vierestä ->](https://goo.gl/maps/LCRiQccGvJTejY1u9)``[Keskusta ->](https://drive.google.com/open?id=1k4cph6Q7LkLMO-ZfzevuCgVaA5Fb25zv&usp=sharing)"
+  },
+  "people": [
+    { "name": "Mikko Rinta-Homi", "title": "Managing Director" },
+    { "name": "Nico Roos", "title": "jr. Managing Director\n" },
+    {
+      "name": "Hugo Holmqvist",
+      "title": "Accomodation Manager, IT-specialist"
+    },
+    { "name": "Eetu Mattila", "title": "Director of Business Relations" },
+    { "name": "Markus Kuosmanen", "title": "Navigation Delivery Specialist" },
+    {
+      "name": "Mila Katajisto",
+      "title": "Head of Recreational Activities, Assistant Director of Business Relations"
+    },
+    {
+      "name": "Olli Keski-Hynnilä",
+      "title": "Director of Transportation, Master of War"
+    },
+    {
+      "name": "Joni Kokko",
+      "title": "Marketing Manager, Health and Safety Specialist "
+    },
+    { "name": "Mikko Halmela", "title": "Public Relations Executioner" },
+    {
+      "name": "Ville-Veikko Saari",
+      "title": "Lead Procrastination Evangelist"
+    },
+    {
+      "name": "Aleksi Huotala",
+      "title": "Director of Rejuvenating Activities"
+    },
+    { "name": "Jussi Aalto", "title": "Pre-afterparty Manager" },
+    { "name": "Niilo Korkiakoski", "title": "Jack Bauer Specialist" },
+    { "name": null, "title": null },
+    { "name": null, "title": null },
+    { "name": "Urho", "title": "🧸Karhu" }
+  ],
+  "sponsors": [
+    {
+      "name": "Reaktor",
+      "url": "https://reaktor.com",
+      "logoUrl": "reaktor.svg"
+    },
+    {
+      "name": "Accenture",
+      "url": "https://www.accenture.com/fi-en",
+      "logoUrl": "accenture.png"
+    },
+    { "name": "CGI", "url": "https://www.cgi.fi/fi", "logoUrl": "cgi.png" },
+    { "name": "Digia", "url": "https://digia.com/", "logoUrl": "digia.png" },
+    {
+      "name": "Efecte",
+      "url": "https://www.efecte.com/",
+      "logoUrl": "efecte.jpg"
+    },
+    {
+      "name": "Futurice",
+      "url": "https://futurice.com",
+      "logoUrl": "futurice.png"
+    },
+    { "name": "Gofore", "url": "https://gofore.com", "logoUrl": "gofore.svg" },
+    {
+      "name": "Siili",
+      "url": "https://www.siili.com/",
+      "logoUrl": "siili.png"
+    },
+    {
+      "name": "Tekniikan akateemiset",
+      "url": "https://www.tek.fi/",
+      "logoUrl": "tek.png"
+    },
+    { "name": "Visma", "url": "https://www.visma.fi/", "logoUrl": "visma.png" },
+    {
+      "name": "Wunderdog",
+      "url": "https://wunderdog.fi",
+      "logoUrl": "wunderdog.png"
+    }
+  ]
+}
